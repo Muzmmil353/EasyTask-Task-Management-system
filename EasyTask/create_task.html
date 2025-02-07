@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/create_task.css">
+    <title>Task Management</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Add a Task</h2>
+        <form action="create_task.php" method="post">
+            <label for="title">Task Title:</label>
+            <input type="text" id="title" name="title" required>
+            <label for="description">Description:</label>
+            <input type="text" id="description" name="description"></textarea>
+            <label for="priority">Priority:</label>
+            <select id="priority" name="priority" required>
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select>
+            <button type="submit" class="create-button">Create Task</button>
+        </form>
+        <p>View created tasks: <a href="All_task.php">View Tasks</a></p>
+    </div>
+</body>
+</html>

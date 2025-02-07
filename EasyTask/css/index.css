@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+h1 {
+    font-size: 48px;
+    color: #007BFF;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.get-started {
+    padding: 15px 30px;
+    font-size: 20px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.get-started:hover {
+    background-color: #1f0085;
+}
